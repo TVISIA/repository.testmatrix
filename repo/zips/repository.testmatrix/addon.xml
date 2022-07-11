@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.testmatrix" name="[B][COLOR coral]testmatrix[/COLOR][/B][COLOR azure] Repository[/COLOR]" provider-name="TVISIA" version="1.0">
+<addon id="repository.testmatrix" name="[B][COLOR coral]testmatrix[/COLOR][/B][COLOR azure] Repository[/COLOR]" provider-name="TVISIA" version="1.0.0">
   <extension point="xbmc.addon.repository" name="testmatrix Repository">
     <dir>
       <info compressed="false">https://raw.githubusercontent.com/TVISIA/repository.matrix/main/repo/zips/addons.xml</info>
