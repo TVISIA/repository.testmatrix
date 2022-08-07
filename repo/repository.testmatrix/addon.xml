@@ -2,7 +2,7 @@
 <addon id="repository.testmatrix" name="[B][COLOR coral]testmatrix[/COLOR][/B][COLOR azure] Repository[/COLOR]" provider-name="TVISIA" version="1.0.0">
   <extension point="xbmc.addon.repository" name="testmatrix Repository">
     <dir>
-      <info compressed="false">https://raw.githubusercontent.com/TVISIA/repository.matrix/main/repo/zips/addons.xml</info>
+      <info compressed="false">https://raw.githubusercontent.com/TVISIA/repository.testmatrix/main/repo/zips/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/TVISIA/repository.testmatrix/main/repo/zips/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.githubusercontent.com/TVISIA/repository.testmatrix/main/repo/zips/</datadir>
     </dir>
