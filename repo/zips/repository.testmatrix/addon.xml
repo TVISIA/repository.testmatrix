@@ -6,7 +6,6 @@
       <checksum>https://raw.githubusercontent.com/TVISIA/repository.testmatrix/main/repo/zips/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.githubusercontent.com/TVISIA/repository.testmatrix/main/repo/zips/</datadir>
     </dir>
-https://github.com/TVISIA/repository.testmatrix/blob/main/repo/zips/repository.testmatrix-1.0.0.zip?raw=true
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
