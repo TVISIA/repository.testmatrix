@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon
+	id="skin.head" version="2.0.1" name="KOVI Head Skin v19" provider-name="tveecf">
+	<requires>
+		<import addon="xbmc.gui" version="5.15.0"/>
+		<import addon="script.skinshortcuts" version="1.1.4"/>
+		<import addon="resource.images.studios.white" version="0.0.28"/>
+		<import addon="script.embuary.helper" version="2.0.8"/>
+		<import addon="plugin.video.themoviedb.helper" version="4.5.76"/>
+	</requires>
+	<extension
+		point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de">KOVI Head Skin</summary>
+		<summary lang="en">KOVI Head Skin</summary>
+		<description lang="de">Dies ist ein Skin Mod auf Basis des Unity Skins.[CR][CR]Support: [COLORcyan]https://www.facebook.com/groups/tveecf[/COLOR][CR]Spende: [COLORcyan]https://www.paypal.me/tveecf[/COLOR]</description>
+		<description lang="en">This is a skin mod based on the Unity skin.[CR][CR]Support: [COLORcyan]https://www.facebook.com/groups/tveecf[/COLOR][CR]Donation: [COLORcyan]https://www.paypal.me/tveecf[/COLOR]</description>
+		<disclaimer lang="de">Wenn Sie diesen Skin verwenden oder anpassen möchten, fragen sie vorher bitte den Ersteller.</disclaimer>
+		<disclaimer lang="en">If you want to use or adapt this skin, please ask the creator beforehand.</disclaimer>
+		<platform>all</platform>
+		<license></license>
+		<forum>https://www.facebook.com/groups/tveecf</forum>
+		<source></source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>
+
 <addon id="repository.testmatrix" name="[B][COLOR coral]testmatrix[/COLOR][/B][COLOR azure] Repository[/COLOR]" provider-name="TVISIA" version="1.0.0">
   <extension point="xbmc.addon.repository" name="testmatrix Repository">
     <dir>
-      <info compressed="false">https://raw.githubusercontent.com/TVISIA/repository.matrix/main/repo/zips/addons.xml</info>
+      <info compressed="false">https://raw.githubusercontent.com/TVISIA/repository.testmatrix/main/repo/zips/addons.xml</info>
       <checksum>https://raw.githubusercontent.com/TVISIA/repository.testmatrix/main/repo/zips/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.githubusercontent.com/TVISIA/repository.testmatrix/main/repo/zips/</datadir>
     </dir>
@@ -3790,6 +3821,27 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     </extension>
 </addon>
 
+<addon id="repository.bitorbit" name="[COLOR cyan]bitorbit[/COLOR][COLOR azure] Repository[/COLOR]" provider-name="tveecf" version="1.0.0">
+  <extension point="xbmc.addon.repository" name="[COLOR cyan]bitorbit[/COLOR][COLOR azure] Repository[/COLOR]">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/tveecf/repo/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/tveecf/repo/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/tveecf/repo/master/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">[B][COLOR cyan]bitorbit[/COLOR][/B][COLOR azure] Repository[/COLOR]"</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
     <addon id="repository.fayer3.matrix" name="fayer3's Addon Repo for Matrix" version="1.0.0" provider-name="fayer3">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -7123,5 +7175,26 @@ v1.0.1 (2019-08-06)
 		</assets>
 		<news>- fix yahoo weather</news>
 	</extension>
+</addon>
+
+<addon id="repository.michaz" name="Michaz Repository" provider-name="Michaz" version="3.0">
+  <extension point="xbmc.addon.repository" name="Michaz Repository">
+    <dir>
+      <info compressed="false">https://raw.githubusercontent.com/michaz1988/repo/master/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/michaz1988/repo/master/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/michaz1988/repo/master/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <description lang="en">Addons by Michaz</description>
+    <license></license>
+    <language></language>
+    <website></website>
+    <news></news>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon>
 </addons>
